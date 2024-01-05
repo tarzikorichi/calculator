@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div
+      class="container mx-auto p-4 bg-emerald-950 h-screen flex items-center justify-center text-center"
+    >
+      <div class="basis-1/4">
+        <div data-his class="flex flex-col flex-col-reverse"></div>
+      </div>
+      <div class="basis-1/2">
+        <div class="bg-emerald-900 p-10 text-end rounded-lg text-white">
+          <div data-po class="min-h-10 text-2xl pb-2"></div>
+          <div data-co class="min-h-12 text-5xl">0</div>
+        </div>
+        <div
+          class="grid grid-cols-4 grid-rows-4 content-end text-white text-lg mt-3"
+        >
+          <button data-clear class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            AC
+          </button>
+          <button class="h-16 hover:bg-emerald-900 hover:rounded-lg">%</button>
+          <button
+            data-delete
+            class="h-16 hover:bg-emerald-900 hover:rounded-lg"
+          >
+            DEL
+          </button>
+          <button
+            data-opp
+            class="h-16 hover:bg-emerald-900 text-3xl hover:rounded-lg"
+          >
+            ÷
+          </button>
+
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            9
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            8
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            7
+          </button>
+          <button
+            data-opp
+            class="h-16 hover:bg-emerald-900 hover:rounded-lg text-3xl"
+          >
+            *
+          </button>
+
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            6
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            5
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            4
+          </button>
+          <button
+            data-opp
+            class="h-16 hover:bg-emerald-900 hover:rounded-lg text-3xl"
+          >
+            -
+          </button>
+
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            3
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            2
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            1
+          </button>
+          <button
+            data-opp
+            class="h-16 hover:bg-emerald-900 hover:rounded-lg text-3xl"
+          >
+            +
+          </button>
+
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            .
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            0
+          </button>
+          <button data-num class="h-16 hover:bg-emerald-900 hover:rounded-lg">
+            00
+          </button>
+          <button
+            data-equel
+            class="h-16 hover:bg-emerald-900 hover:rounded-lg text-3xl"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=j59qQ7YWLxw -->
